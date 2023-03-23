@@ -5,6 +5,12 @@
   font-family: Arial;
 }
 
+.divider {
+  width: 100%;
+  height: 1px ;
+  background-color: rgba(77, 76, 76, 0.15);
+}
+
 /* body{
   background-color: red;
 } */
@@ -131,6 +137,7 @@
   background: black;
   overflow: hidden;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .banner-section img {
@@ -161,4 +168,107 @@
   font-size: 36px;
   font-weight: 700;
   color: white;
+  text-transform: uppercase;
 }
+
+.detailed-blog {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.detailed-blog-card {
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(77, 76, 76, 0.15);
+  border-top-width: 0;
+}
+
+.detailed-blog-image img{
+  width: 100%;
+}
+
+.blog-card-heading {
+  margin-bottom: 25px;
+}
+
+.blog-card-heading .heading-text{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 12px 0;
+}
+
+.blog-card-body {
+  padding: 25px 0 25px 0;
+  font-size: 15px;
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+.blog-card-body .para-1 {
+  margin-bottom: 30px;
+}
+
+.para-1 a {
+  text-decoration: none;
+}
+
+.footer-list .fa-solid {
+  color: #f48840;
+}
+
+.blog-card-footer {
+  margin-top: 25px;
+  text-align: end;
+}
+
+.comment-section {
+  width: 100%;
+}
+
+.comment-section .container {
+  width: 730px;
+}
+
+.container .comment-number {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.comment-section {
+  margin-bottom: 60px;
+}
+
+.comment-without-space {
+  margin: 20px 0 20px 0;
+  display: flex;
+}
+
+.comment {
+  margin: 0 0 0 30px;
+}
+
+.comment-heading {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.comment-heading .date{
+  font-size: 14px;
+  font-weight: normal;
+  color: #aaa;
+  margin-left: 20px;
+}
+
+.comment-details p {
+  font-size: 15px;
+  color: #7a7a7a;
+  line-height: 30px;
+}
+
+.comment-with-space {
+  margin: 20px 0 20px 130px;
+  display: flex;
+}
+
